@@ -1,6 +1,6 @@
-#include "iostream.h"
+#include <iostream>
 
-int main()
-{
- cout<<"hello world is called"; 
+int main(int argc, char** argv){
+	std::cout << "Hello World" << std::endl;
+	return 0;
 }
